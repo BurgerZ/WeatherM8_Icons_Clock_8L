@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bz.zaa.clock8l">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name">
+
+        <meta-data
+            android:name="weatherm8.theme"
+            android:value="true" />
+        <meta-data
+            android:name="theme.icons.author"
+            android:value="@string/theme_author" />
+        <meta-data
+            android:name="theme.icons.version"
+            android:value="@string/theme_version" />
+        <meta-data
+            android:name="theme.icons.date"
+            android:value="@string/theme_date" />
+        <meta-data
+            android:name="theme.icons.title"
+            android:value="@string/theme_title" />
+        <meta-data
+            android:name="theme.icons.white"
+            android:value="false" />
+
+    </application>
+
+</manifest>
